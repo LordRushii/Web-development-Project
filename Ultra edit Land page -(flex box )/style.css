@@ -1,0 +1,122 @@
+*{
+padding: 0;
+margin: 0;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    display: flex;
+}
+ul li{
+ list-style: none;
+ display: flexbox;
+ align-items: center;
+}
+nav{
+    background-color:white;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 7vh;
+}
+.logo img{
+    height: 42px;
+    width: 120px;
+}
+
+.right ul{
+    display :flex ;
+    gap: 43px;
+
+}
+
+li img {
+    margin-top: 6px;
+    height: 11px;
+    width: 11px;
+}
+#serach{
+
+    height: 18px;
+    width: 18px;
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.first span{
+    font-size: 40px;
+}
+.firstLine{
+    font-size: 22px;
+}
+#MacLinux{
+    padding: 15px 23px;
+    font-size: 18px;
+    background-color: rgb(149, 149, 190);
+    border-radius: 12px;
+    border-style: none;
+    color: white;
+    font-weight: 500;
+}
+section{
+     margin-top: 10vh; 
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+}
+.big{
+    font-size: 23px;
+}
+
+.second{
+   max-width: 60vw ;
+   margin: auto;
+}
+#logo2{
+    height: 7vh;
+    width: 4vw; 
+    margin-left:23vh;
+    
+}
+.Blue{
+    background-color: rgb(149, 149, 190);
+    border-radius: 12px;
+    border-style: none;
+    font-size: 12px;
+    height: 35px;
+    padding: 5px 5px;
+
+}
+.Green{
+    background-color: #5cb85c;
+    border-radius: 12px;
+    border-style: none;
+    font-size: 12px;
+    height: 35px;
+    padding: 5px 5px;
+}
+.item{
+    background-color: #fff3f3;
+    height:66px;
+    width: 244px;
+    border-radius: 12px;
+    padding: 5px 10px;
+    text-align: center;
+}
+.item-lang{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
